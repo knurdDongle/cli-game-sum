@@ -1,0 +1,21 @@
+{
+  "name": "game_numbers",
+  "version": "1.0.0",
+  "description": "Console game with numbers",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stormtrooper",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  }
+}
