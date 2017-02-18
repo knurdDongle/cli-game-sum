@@ -3,19 +3,31 @@
   "version": "1.0.0",
   "description": "Console game with numbers",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.6"
+  },
   "devDependencies": {
     "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
     "eslint": "^3.15.0",
     "eslint-config-airbnb-base": "^11.1.0",
     "eslint-plugin-import": "^2.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "babel-node --presets=es2015 index.js"
   },
   "author": "stormtrooper",
   "license": "ISC",
   "directories": {
     "test": "tests"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuznetsovIlya/cli-game-sum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KuznetsovIlya/cli-game-sum/issues"
+  },
+  "homepage": "https://github.com/KuznetsovIlya/cli-game-sum#readme"
 }
