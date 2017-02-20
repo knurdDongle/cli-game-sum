@@ -9,7 +9,7 @@ export default class UserData {
   }
 
   getAnswer() {
-    return this.answer; // i love you
+    return this.answer;
   }
 
   setScore(score) {
