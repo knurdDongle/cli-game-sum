@@ -8,6 +8,14 @@ export default class Variants {
     return this.array.filter(element => element.isCorrect)[0].value;
   }
 
+  getValues() {
+    return this.array.map(element => element.value);
+  }
+
+  getTerm() {
+    return this.term;
+  }
+
   setTrue(newValue) {
     const term = this.term;
     const trueValue = {
@@ -32,11 +40,4 @@ export default class Variants {
     return new Variants(trueValue.concat(falseValue1, falseValue2), term); // TODO
   }
 
-  getValues() {
-    return this.array.map(element => element.value);
-  }
-
-  getTerm() {
-    return this.term;
-  }
 }

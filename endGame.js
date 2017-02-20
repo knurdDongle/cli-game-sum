@@ -1,3 +1,3 @@
 export default (score) => {
-  console.log(`Your score is ${score}`); // eslint-disable-line
+  console.log(`Game over. Your score is ${score}`); // eslint-disable-line
 };
