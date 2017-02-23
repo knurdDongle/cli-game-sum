@@ -66,7 +66,7 @@ const newRound = (turn, vars, userData) => {
 
   console.log(`---------------------------
     Your score is ${newUserData.getScore()}
----------------------------`); // eslint-disable-line
+---------------------------`);
 
   const newVars = calcNewVars(vars, newUserData);
   return newRound(turn - 1, newVars, newUserData);
